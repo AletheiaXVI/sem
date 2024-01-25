@@ -4,3 +4,4 @@
 very cool indeed
 
 ---
+I have now added more text to the very cool README
