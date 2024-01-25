@@ -1,3 +1,4 @@
+![workflow](https://github.com/<UserName>/<RepositoryName>/actions/workflows/main.yml/badge.svg)
 # This is a README file
 
 ## It is such an awesome file
