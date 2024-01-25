@@ -1,7 +1,9 @@
-![workflow](https://github.com/AletheiaXVI/sem/actions/workflows/main.yml/badge.svg)
-# This is a README file
+# Software Engineering Methods
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/AletheiaXVI/sem/main.yml?branch=develop)
 
-## It is such an awesome file
+## This is a README file
+
+### It is such an awesome file
 very cool indeed
 
 ---
