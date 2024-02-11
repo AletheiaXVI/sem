@@ -1,13 +1,13 @@
-#use latest mysql image
+# Use the latest MySQL image
 FROM mysql
-#set working directory
+# Set the working directory
 WORKDIR /tmp
-#copy all files to working directory of container
+# Copy all the files to the working directory of the container
 COPY test_db/*.sql /tmp/
 COPY test_db/*.dump /tmp/
-#copy main sql file to docker-entrypoint-initdb.d
-#scripts and sql files in this folder are executed on container startup
-#this is specific to mysql
+# Copy the main SQL file to docker-entrypoint-initdb.d.
+# Scripts and SQL files in this folder are executed on container startup.
+# This is specific to MySQL.
 COPY test_db/employees.sql /docker-entrypoint-initdb.d
-#set root password
-ENV MYSQL_ROOT_PASSWORD mysql
+# Set the root password
+ENV MYSQL_ROOT_PASSWORD example
